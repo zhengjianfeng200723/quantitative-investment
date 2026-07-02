@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- 量化项目专用：忽略数据和敏感信息 ---
+data/
+*.csv
+*.xlsx
+*.log
